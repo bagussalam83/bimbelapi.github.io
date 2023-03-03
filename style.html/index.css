@@ -1,0 +1,288 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.about,
+.bayar,
+.program,
+.kontak {
+  padding-top: 5rem;
+}
+/* navbar */
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+}
+.navbar .navbar-brand span {
+  color: #7fde34;
+}
+
+.btn-daftar button {
+  width: 110px;
+  height: 38px;
+  background: #7fde34;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+}
+
+.btn-daftar button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* hero */
+.hero {
+  background-color: #f6ffea;
+}
+.hero .jumbotron .img-hero {
+  z-index: 2;
+}
+
+.hero .jumbotron .text-hero {
+  padding: 15rem 0;
+}
+
+.hero .jumbotron .text-hero h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  width: 488px;
+}
+
+.hero .jumbotron .text-hero h1 span {
+  color: #7fde34;
+}
+
+.hero .jumbotron .text-hero p {
+  width: 535px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.79);
+}
+
+.hero .jumbotron .text-hero p span {
+  color: #7fde34;
+}
+.hero .jumbotron .text-hero .btn-join button {
+  width: 156px;
+  height: 43px;
+  background: #7fde34;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 33px;
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero .jumbotron .text-hero .btn-join button a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+/* about us */
+
+.about .row h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.about .row p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about .row p a {
+  color: #7fde34;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Program belajar */
+.program {
+  background-color: #f6ffea;
+}
+
+.program .text-program {
+  padding-bottom: 3rem;
+}
+.program h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.program .text-program p {
+  font-weight: 500;
+  width: 600px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.program .row .card {
+  border-radius: 25px;
+  background: #ecffee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px 30px 0px 0px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.program .row .card p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.program .row .card:hover {
+  background-color: #459508;
+  color: #ffff;
+}
+
+/* bayar */
+.bayar h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  padding: 1rem 0;
+}
+.bayar .card-bayaran {
+  background-color: #ecffee;
+  border-radius: 10px;
+  background: #ecffee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 500px;
+}
+.bayar .card-bayaran h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  background-color: #7fde34;
+  color: #fff;
+  height: 100px;
+  padding: 1.5rem 0;
+}
+.bayar .card-bayaran .table-bayar {
+  padding: 0.8rem;
+}
+.bayar .card-bayaran table {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.bayar .card-bayaran .btn-bayaran {
+  padding-top: 2rem;
+}
+.bayar .card-bayaran .btn-bayaran button {
+  width: 155px;
+  height: 49px;
+  background: #7fde34;
+  border-radius: 20px;
+  border-style: none;
+}
+.bayar .card-bayaran .btn-bayaran button a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffff;
+  text-decoration: none;
+}
+
+/* kontak */
+.kontak {
+  padding-top: 5rem;
+  background-color: #f6ffea;
+}
+
+.kontak .maps {
+  padding: 2rem;
+  background-color: #ffffff;
+}
+.kontak .maps .map {
+  width: 820px;
+  min-height: 100%;
+}
+
+.kontak .maps h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  padding-bottom: 10px;
+}
+
+.kontak .maps input {
+  font-size: 20px;
+}
+
+.kontak .btn-kontak button {
+  background: #7fde34;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 117px;
+  height: 34px;
+  border-style: none;
+}
+
+.kontak .btn-kontak button a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ecffee;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+footer h4 span {
+  color: #7fde34;
+}
+
+footer .down a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .social-media {
+  padding: 2rem 0;
+}
+footer .social-media a {
+  font-size: 2.5rem;
+  color: #000;
+  margin-right: 20px;
+}
+
+footer .copyright {
+  padding-bottom: 2rem;
+}
+footer .copyright p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}

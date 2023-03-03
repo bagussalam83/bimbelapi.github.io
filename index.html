@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.html/index.css" />
+
+    <!-- logo title -->
+    <link rel="icon" href="img/tittle.png" type="img/x-icon" />
+
+    <title>Bimbingan Belajar API</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo.png"
+            alt="logo"
+            width="30"
+            class="d-inline-block align-text-top me-1"
+          />
+          Bimbel <span>API</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-success fw-bold"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#program">Program Belajar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Fitur Kami
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#tentang-kami">Tentang Kami</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pengajar.html">Pengajar</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Fasilitas</a></li>
+                <li><a class="dropdown-item" href="#">Testimoni</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="btn-daftar">
+            <button><a href="daftar.html">Daftar</a></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <section id="hero" class="hero">
+      <div class="container-fluid">
+        <div class="jumbotron">
+          <div class="img-hero position-relative">
+            <img
+              src="img/hero.png"
+              alt="hero-section"
+              class="position-absolute top-0 end-0"
+            />
+          </div>
+          <div class="container">
+            <div class="text-hero">
+              <h1>Bimbingan Belajar <span>Anak Pintar Indonesia</span></h1>
+              <p>
+                <span>bimbingan belajar</span> yang bersahabat, terpercaya,
+                profesional dan amanah, Belajar Dengan Para Mentor Terbaik
+              </p>
+              <div class="btn-join">
+                <button><a href="daftar.html">Daftar</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,160L34.3,133.3C68.6,107,137,53,206,53.3C274.3,53,343,107,411,149.3C480,192,549,224,617,213.3C685.7,203,754,149,823,128C891.4,107,960,117,1029,138.7C1097.1,160,1166,192,1234,186.7C1302.9,181,1371,139,1406,117.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- tentang kami start -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img
+              src="img/tentang-kami.png"
+              alt="tentang-kami"
+              width="750px"
+              class="img-thumbnail"
+            />
+          </div>
+          <div class="col-md-5">
+            <h2>Tentang Kami</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima,
+              illo eos. Aliquid, nemo adipisci! Fugit eveniet perspiciatis
+              ipsum, qui id similique eos aliquam sapiente pariatur nihil
+              accusamus minus nobis. Laboriosam?
+              <a href="tentang-kami.html">Lainnya...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f6ffea"
+          fill-opacity="1"
+          d="M0,128L34.3,160C68.6,192,137,256,206,250.7C274.3,245,343,171,411,170.7C480,171,549,245,617,277.3C685.7,309,754,299,823,272C891.4,245,960,203,1029,208C1097.1,213,1166,267,1234,266.7C1302.9,267,1371,213,1406,186.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- tentang kami end -->
+
+    <!-- Program Belajar start -->
+    <section id="program" class="program">
+      <div class="container">
+        <div class="text-program">
+          <div class="row d-flex justify-content-center">
+            <h2>Program Belajar</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              distinctio aliquid cumque sequi itaque temporibus saepe rerum
+              fugiat voluptatibus quasi.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/aljabar.png" class="card-img-top" alt="aljabar" />
+              <div class="card-body">
+                <p class="card-text text-center">Jari Aljabar</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card">
+              <img
+                src="img/baca-tulis.png"
+                class="card-img-top"
+                alt="Baca-tulis"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">Baca Tulis</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/ngaji.png" class="card-img-top" alt="ngaji" />
+              <div class="card-body">
+                <p class="card-text text-center">Ngaji Al-Barqy</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/inggris.png" class="card-img-top" alt="inggirs" />
+              <div class="card-body">
+                <p class="card-text text-center">B. Inggirs SD</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/mtk.png" class="card-img-top" alt="mtk" />
+              <div class="card-body">
+                <p class="card-text text-center">Matematika SD</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/tematik.png" class="card-img-top" alt="tematik" />
+              <div class="card-body">
+                <p class="card-text text-center">Tematik</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/menulis.png" class="card-img-top" alt="menulis" />
+              <div class="card-body">
+                <p class="card-text text-center">Menulis Indah</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="card">
+              <img src="img/Komputer.png" class="card-img-top" alt="Komputer" />
+              <div class="card-body">
+                <p class="card-text text-center">ilmu Komputer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,96L26.7,90.7C53.3,85,107,75,160,74.7C213.3,75,267,85,320,122.7C373.3,160,427,224,480,229.3C533.3,235,587,181,640,181.3C693.3,181,747,235,800,240C853.3,245,907,203,960,154.7C1013.3,107,1067,53,1120,69.3C1173.3,85,1227,171,1280,218.7C1333.3,267,1387,277,1413,282.7L1440,288L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Program Belajar end -->
+
+    <!-- biaya les start -->
+    <section class="bayar" id="bayar">
+      <h2 class="text-center">Biaya Les</h2>
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-5">
+            <div class="card-bayaran">
+              <h3>Biaya Bimbel Api</h3>
+              <div class="table-bayar">
+                <table class="table text-start table-borderless">
+                  <tbody>
+                    <tr>
+                      <td>Pendaftaran (Permata Pelajaran)</td>
+                      <td>Rp. 100.000</td>
+                    </tr>
+                    <tr>
+                      <td>Naik Level</td>
+                      <td>Rp. 50.000</td>
+                    </tr>
+                    <tr>
+                      <td>Modul</td>
+                      <td>Rp. 35.000</td>
+                    </tr>
+                    <tr>
+                      <td>Biaya Les 1 Jam</td>
+                      <td>Rp. 12.000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="btn-bayaran">
+                <button><a href="daftar.html">Daftar</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f6ffea"
+          fill-opacity="1"
+          d="M0,0L26.7,26.7C53.3,53,107,107,160,144C213.3,181,267,203,320,213.3C373.3,224,427,224,480,229.3C533.3,235,587,245,640,234.7C693.3,224,747,192,800,165.3C853.3,139,907,117,960,133.3C1013.3,149,1067,203,1120,208C1173.3,213,1227,171,1280,133.3C1333.3,96,1387,64,1413,48L1440,32L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- biaya les end -->
+
+    <!-- kontak section start -->
+    <section class="kontak" id="kontak">
+      <div class="container">
+        <div class="maps">
+          <div class="row">
+            <div class="col-8">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d495.21046972360233!2d108.01801780166761!3d-6.808268734031034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68d5a67fca2de3%3A0x274ec62df25a1471!2sToko%20Central%20Family!5e0!3m2!1sid!2sid!4v1677839461091!5m2!1sid!2sid"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="map"
+              ></iframe>
+            </div>
+            <div class="col-md-4">
+              <h3>hubungi Kami</h3>
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Nama Lengkap"
+                />
+                <label for="floatingInput">Nama Lengkap</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Email"
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Pesan</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="btn-kontak text-center">
+                <button><a href="#">Kirim</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L26.7,53.3C53.3,75,107,117,160,144C213.3,171,267,181,320,165.3C373.3,149,427,107,480,112C533.3,117,587,171,640,208C693.3,245,747,267,800,245.3C853.3,224,907,160,960,138.7C1013.3,117,1067,139,1120,122.7C1173.3,107,1227,53,1280,64C1333.3,75,1387,149,1413,186.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- kontak section end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="last-section d-flex justify-content-between">
+            <h4>Bimbel <span>API</span></h4>
+            <div class="down">
+              <a href="#">Beranda</a>
+              <a href="#about">Tentang kami</a>
+              <a href="#program">Program belajar</a>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="social-media">
+              <a href="#"><i class="bi bi-whatsapp"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+          <div class="copyright text-center">
+            <p>Copyright © 2023 bimbelApi.com All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
