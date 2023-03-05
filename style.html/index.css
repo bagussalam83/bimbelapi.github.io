@@ -6,6 +6,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .about,
 .bayar,
@@ -21,6 +23,10 @@ body {
 }
 .navbar .navbar-brand span {
   color: #7fde34;
+}
+.navbar {
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .btn-daftar button {
@@ -161,6 +167,61 @@ body {
 .program .card-pro .card-program:hover {
   background-color: #459508;
   color: #ffff;
+}
+
+#mata-pelajaran-1 .profile,
+#mata-pelajaran-2 .profile,
+#mata-pelajaran-3 .profile,
+#mata-pelajaran-4 .profile,
+#mata-pelajaran-5 .profile,
+#mata-pelajaran-6 .profile,
+#mata-pelajaran-7 .profile,
+#mata-pelajaran-8 .profile {
+  padding: 10px 4%;
+}
+#mata-pelajaran-1 .profile h4,
+#mata-pelajaran-2 .profile h4,
+#mata-pelajaran-3 .profile h4,
+#mata-pelajaran-4 .profile h4,
+#mata-pelajaran-5 .profile h4,
+#mata-pelajaran-6 .profile h4,
+#mata-pelajaran-7 .profile h4,
+#mata-pelajaran-8 .profile h4 {
+  font-weight: 600;
+  padding: 5px 0;
+}
+#mata-pelajaran-1,
+#mata-pelajaran-2,
+#mata-pelajaran-3,
+#mata-pelajaran-4,
+#mata-pelajaran-5,
+#mata-pelajaran-6,
+#mata-pelajaran-7,
+#mata-pelajaran-8 {
+  text-align: center;
+}
+#mata-pelajaran-1 p,
+#mata-pelajaran-2 p,
+#mata-pelajaran-3 p,
+#mata-pelajaran-4 p,
+#mata-pelajaran-5 p,
+#mata-pelajaran-6 p,
+#mata-pelajaran-7 p,
+#mata-pelajaran-8 p {
+  text-align: justify;
+}
+#mata-pelajaran-1 .modal-footer button,
+#mata-pelajaran-2 .modal-footer button,
+#mata-pelajaran-3 .modal-footer button,
+#mata-pelajaran-4 .modal-footer button,
+#mata-pelajaran-5 .modal-footer button,
+#mata-pelajaran-6 .modal-footer button,
+#mata-pelajaran-7 .modal-footer button,
+#mata-pelajaran-8 .modal-footer button {
+  background-color: #459508;
+  color: #fff;
+  border-style: none;
+  border-radius: 5px;
 }
 
 /* bayar */
@@ -321,6 +382,31 @@ footer .copyright a {
   html {
     font-size: 80%;
   }
+  .navbar {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  #mata-pelajaran-1 .profile h4,
+  #mata-pelajaran-2 .profile h4,
+  #mata-pelajaran-3 .profile h4,
+  #mata-pelajaran-4 .profile h4,
+  #mata-pelajaran-5 .profile h4,
+  #mata-pelajaran-6 .profile h4,
+  #mata-pelajaran-7 .profile h4,
+  #mata-pelajaran-8 .profile h4 {
+    font-size: 18px;
+  }
+  #mata-pelajaran-1 p,
+  #mata-pelajaran-2 p,
+  #mata-pelajaran-3 p,
+  #mata-pelajaran-4 p,
+  #mata-pelajaran-5 p,
+  #mata-pelajaran-6 p,
+  #mata-pelajaran-7 p,
+  #mata-pelajaran-8 p {
+    text-align: justify;
+    font-size: 15px;
+  }
   .program .card .card-body p {
     font-size: 15px;
   }
@@ -346,10 +432,26 @@ footer .copyright a {
   html {
     font-size: 55%;
   }
+  .navbar {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar {
+    padding: 10px 0;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
   .hero .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("/img/768.png");
+    background-image: url("/img/hero-second.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -417,6 +519,27 @@ footer .copyright a {
   .program .card-pro .card-program img {
     width: 200px;
   }
+  #mata-pelajaran-1 .profile h4,
+  #mata-pelajaran-2 .profile h4,
+  #mata-pelajaran-3 .profile h4,
+  #mata-pelajaran-4 .profile h4,
+  #mata-pelajaran-5 .profile h4,
+  #mata-pelajaran-6 .profile h4,
+  #mata-pelajaran-7 .profile h4,
+  #mata-pelajaran-8 .profile h4 {
+    font-size: 16px;
+  }
+  #mata-pelajaran-1 p,
+  #mata-pelajaran-2 p,
+  #mata-pelajaran-3 p,
+  #mata-pelajaran-4 p,
+  #mata-pelajaran-5 p,
+  #mata-pelajaran-6 p,
+  #mata-pelajaran-7 p,
+  #mata-pelajaran-8 p {
+    text-align: justify;
+    font-size: 13px;
+  }
   .bayar .text-bayar h2 {
     font-size: 25px;
     line-height: 26px;
@@ -443,7 +566,7 @@ footer .copyright a {
     padding: 20px 20px;
   }
   .kontak .maps .map {
-    width: 470px;
+    width: 430px;
     position: relative;
   }
   .kontak .maps h3 {
@@ -484,9 +607,22 @@ footer .copyright a {
   }
 }
 /* handphone */
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   html {
     font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
   }
   .hero .jumbotron .text-hero p {
     font-weight: 500;
@@ -535,5 +671,78 @@ footer .copyright a {
   }
   .program .card-pro .card-program img {
     width: 180px;
+  }
+}
+@media (max-width: 420px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero .jumbotron .text-hero h1 {
+    font-size: 30px;
+    width: 350px;
+  }
+  .hero .jumbotron .text-hero p {
+    font-weight: 500;
+    font-size: 16px;
+    width: 390px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  .bayar .card-bayaran h3 {
+    font-size: 28px;
+    padding: 3rem 0;
+  }
+  .bayar .card-bayaran {
+    background-color: #ecffee;
+    border-radius: 10px;
+    background: #ecffee;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 400px;
+    width: 400px;
+    margin: 2rem 0;
+  }
+  .bayar .card-bayaran .table-bayar {
+    padding: 20px 20px;
+  }
+  .bayar .card-bayaran table {
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .kontak .maps .map {
+    width: 420px;
+    position: relative;
+  }
+  .kontak .btn-kontak {
+    padding: 10px 0;
+  }
+  .program .card-pro .card-program {
+    width: 180px;
+    height: 230px;
+  }
+
+  .program .card-pro .card-program p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 1.1rem;
+  }
+  .program .card-pro .card-program img {
+    width: 180px;
+  }
+  .kontak .maps .map {
+    width: 350px;
   }
 }

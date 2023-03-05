@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.about,
+.bayar,
+.program,
+.kontak {
+  padding-top: 5rem;
+}
+/* navbar */
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+}
+.navbar .navbar-brand span {
+  color: #7fde34;
+}
+.navbar {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-daftar button {
+  width: 110px;
+  height: 38px;
+  background: #7fde34;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+}
+
+.btn-daftar button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* hero */
+.hero {
+  height: 300px;
+  background-image: url(../img/hero-tentang-kami2.jpg);
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  padding: 8rem 0;
+  color: #fff;
+}
+/* bimbel section */
+.bimbel {
+  padding: 2rem 0;
+}
+.bimbel .text-bimbel h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+.bimbel .text-bimbel h2 span {
+  color: #7fde34;
+}
+.bimbel .text-bimbel p {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+/* Mendia Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 80%;
+  }
+  .navbar {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar {
+    padding: 10px 0;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    height: 200px;
+    background-image: url(../img/hero-tentang-kami2.jpg);
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 72px;
+    padding: 10rem 0;
+  }
+}
+
+/* handphone */
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    height: 180px;
+    background-image: url(../img/hero-tentang-kami2.jpg);
+  }
+  .hero h1 {
+    font-size: 30px;
+    line-height: 72px;
+    padding: 10rem 0;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
