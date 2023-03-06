@@ -8,6 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  min-height: 50000px;
 }
 .about,
 .bayar,
@@ -76,6 +77,33 @@ body {
   line-height: 26px;
 }
 
+/* visi -misi */
+.visi-misi {
+  padding-top: 3rem;
+}
+.visi-misi .visi,
+.visi-misi .misi {
+  width: 550px;
+  height: 621px;
+  background: #f4fef5;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.visi-misi .visi h2,
+.visi-misi .misi h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  padding: 1.5rem;
+  height: 117px;
+  background: #93de34;
+  border-radius: 20px 20px 0px 0px;
+  color: #ffff;
+}
+.visi-misi .visi p {
+  padding: 0 4%;
+}
+
 /* Mendia Queries */
 /* Laptop */
 @media (max-width: 1366px) {
@@ -118,6 +146,16 @@ body {
     line-height: 72px;
     padding: 10rem 0;
   }
+  .bimbel .text-bimbel h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .bimbel .text-bimbel p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 /* handphone */
@@ -147,6 +185,19 @@ body {
     line-height: 72px;
     padding: 10rem 0;
   }
+  .bimbel {
+    padding: 1rem 1rem;
+  }
+  .bimbel .text-bimbel h2 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .bimbel .text-bimbel p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -165,5 +216,43 @@ body {
     font-weight: 600;
     font-size: 12px;
     line-height: 24px;
+  }
+  .bimbel .text-bimbel h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .bimbel .text-bimbel p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .bimbel .text-bimbel h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .bimbel .text-bimbel p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
   }
 }
