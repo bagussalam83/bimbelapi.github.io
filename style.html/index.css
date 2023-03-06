@@ -451,7 +451,7 @@ footer .copyright a {
   .hero .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("./img/hero-second.png");
+    background-image: url("../img/hero-second.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
