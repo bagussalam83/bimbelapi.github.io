@@ -558,8 +558,8 @@ footer .copyright a {
     border-radius: 10px;
     background: #ecffee;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 400px;
-    width: 500px;
+    height: 420px;
+    width: 400px;
     margin: 2rem 0;
   }
   .bayar .card-bayaran .table-bayar {
@@ -571,19 +571,20 @@ footer .copyright a {
   }
   .kontak .maps h3 {
     padding-top: 1rem;
+    font-size: 20px;
   }
   .kontak .maps input {
     font-size: 15px;
     height: 50px;
   }
   .kontak .maps label {
-    font-size: 16px;
+    font-size: 14px;
   }
   .kontak .maps .form-label {
-    font-size: 18px;
+    font-size: 12px;
   }
   .kontak .maps .form-control {
-    font-size: 18px;
+    font-size: 12px;
   }
   footer .last-section h4 {
     font-size: 20px;
@@ -672,7 +673,26 @@ footer .copyright a {
   .program .card-pro .card-program img {
     width: 180px;
   }
+  footer {
+    padding: 0 5%;
+  }
+  footer .last-section h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
 }
+/* phone */
 @media (max-width: 420px) {
   html {
     font-size: 50%;
@@ -701,25 +721,48 @@ footer .copyright a {
     line-height: 25px;
     color: rgba(0, 0, 0, 0.79);
   }
+  .hero .jumbotron .text-hero .btn-join button {
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+  }
+  .hero .jumbotron .text-hero .btn-join button a {
+    font-size: 15px;
+  }
   .bayar .card-bayaran h3 {
-    font-size: 28px;
-    padding: 3rem 0;
+    font-size: 20px;
+    padding: 0.7rem 0;
+    height: 60px;
   }
   .bayar .card-bayaran {
     background-color: #ecffee;
     border-radius: 10px;
     background: #ecffee;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 400px;
-    width: 400px;
+    height: 320px;
+    width: 300px;
     margin: 2rem 0;
   }
   .bayar .card-bayaran .table-bayar {
-    padding: 20px 20px;
+    padding: 10px 10px;
   }
   .bayar .card-bayaran table {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .bayar .card-bayaran .btn-bayaran button {
+    width: 120px;
+    height: 30px;
+    background: #7fde34;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .bayar .card-bayaran .btn-bayaran button a {
+    font-weight: 600;
     font-size: 15px;
     line-height: 30px;
+    color: #ffff;
+    text-decoration: none;
   }
   .kontak .maps .map {
     width: 420px;
@@ -745,6 +788,46 @@ footer .copyright a {
   .kontak .maps .map {
     width: 350px;
   }
+  .kontak .maps h3 {
+    padding-top: 1rem;
+    font-size: 18px;
+  }
+  .kontak .maps input {
+    font-size: 10px;
+    height: 50px;
+  }
+  .kontak .maps label {
+    font-size: 10px;
+  }
+  .kontak .maps .form-label {
+    font-size: 12px;
+  }
+  .kontak .maps .form-control {
+    font-size: 12px;
+  }
+  .kontak .btn-kontak button {
+    height: 30px;
+    width: 80px;
+  }
+  .kontak .btn-kontak button a {
+    font-size: 12px;
+  }
+
+  footer .last-section h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 8px;
+  }
+  footer .copyright p a {
+    font-size: 8px;
+  }
 }
 
 /* vivo */
@@ -753,7 +836,7 @@ footer .copyright a {
     font-size: 45%;
   }
   .navbar {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 500;
   }
   .navbar .btn-daftar button {
@@ -766,35 +849,33 @@ footer .copyright a {
     line-height: 24px;
   }
   .hero .jumbotron .text-hero h1 {
-    font-size: 25px;
+    font-size: 20px;
+    line-height: 24px;
     width: 280px;
   }
   .hero .jumbotron .text-hero p {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     width: 280px;
-    line-height: 25px;
+    line-height: 18px;
     color: rgba(0, 0, 0, 0.79);
   }
   .hero .jumbotron .text-hero .btn-join button {
-    width: 100px;
-    height: 30px;
+    width: 75px;
+    height: 25px;
     font-weight: 500;
+  }
+  .hero .jumbotron .text-hero .btn-join button a {
     font-size: 12px;
-    line-height: 24px;
   }
-  .bayar .card-bayaran h3 {
-    font-size: 28px;
-    padding: 3rem 0;
+  .about .row h2 {
+    font-size: 18px;
   }
-  .bayar .card-bayaran {
-    background-color: #ecffee;
-    border-radius: 10px;
-    background: #ecffee;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 400px;
-    width: 400px;
-    margin: 2rem 0;
+  .about .row p {
+    width: 280px;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
   }
   .bayar .card-bayaran .table-bayar {
     padding: 20px 20px;
@@ -812,27 +893,28 @@ footer .copyright a {
   }
   .program .text-program h2,
   .bayar .text-bayar h2 {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
   }
   .program .text-program p,
   .bayar .text-bayar p {
     text-align: justify;
-    font-size: 14px;
+    font-size: 10px;
+    width: 280px;
   }
   .program .card-pro .card-program {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 130px;
   }
 
   .program .card-pro .card-program p {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 24px;
-    padding-top: 1.1rem;
+    padding-top: 0.3rem;
   }
   .program .card-pro .card-program img {
-    width: 150px;
+    width: 100px;
   }
   .kontak .maps .map {
     width: 350px;
@@ -841,39 +923,84 @@ footer .copyright a {
     padding: 0 5%;
   }
   .bayar .card-bayaran {
-    height: 400px;
-    width: 320px;
+    height: 250px;
+    width: 200px;
     margin: 2rem 5%;
   }
   .bayar .card-bayaran .table-bayar {
     padding: 10px 10px;
   }
+  .bayar .card-bayaran h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 12px;
+    background-color: #7fde34;
+    color: #fff;
+    height: 50px;
+  }
   .bayar .card-bayaran table {
-    font-size: 13px;
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .bayar .card-bayaran .btn-bayaran {
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+  }
+  .bayar .card-bayaran .btn-bayaran button {
+    width: 100px;
+    height: 30px;
+    background: #7fde34;
+    border-radius: 20px;
+    border-style: none;
+  }
+  .bayar .card-bayaran .btn-bayaran button a {
+    font-weight: 600;
+    font-size: 12px;
     line-height: 30px;
+    color: #ffff;
+    text-decoration: none;
   }
   .kontak .maps .map {
     width: 250px;
   }
+  .kontak .maps h3 {
+    padding-top: 1rem;
+    font-size: 18px;
+  }
+  .kontak .maps input {
+    font-size: 10px;
+    height: 50px;
+  }
+  .kontak .maps label {
+    font-size: 10px;
+  }
+  .kontak .maps .form-label {
+    font-size: 12px;
+  }
+  .kontak .maps .form-control {
+    font-size: 12px;
+  }
+  .kontak .btn-kontak button {
+    height: 30px;
+    width: 80px;
+  }
+  .kontak .btn-kontak button a {
+    font-size: 12px;
+  }
+
   footer .last-section h4 {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 18px;
   }
   footer .last-section a {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 18px;
-    margin-right: 8px;
+    margin-right: 5px;
   }
   footer .copyright p {
-    font-size: 9px;
+    font-size: 6px;
   }
   footer .copyright p a {
-    font-size: 9px;
+    font-size: 6px;
   }
-  footer .last-section,
-  footer .social-media,
-  footer .copyright {
-    margin: 10px 7%;
-  }
-}
 }

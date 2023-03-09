@@ -8,7 +8,6 @@ body {
   font-family: "Poppins", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
-  min-height: 50000px;
 }
 .about,
 .bayar,
@@ -48,24 +47,31 @@ body {
 
 /* hero */
 .hero {
-  height: 300px;
-  background-image: url(../img/hero-tentang-kami2.jpg);
+  display: flex;
+  min-height: 300px;
+  overflow-x: hidden;
+  background: url(/img/hero-tentang-kami2.jpg);
+  background-size: cover;
+  justify-content: center;
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
 }
-.hero h1 {
+.hero .content {
+  padding-top: 9rem;
+}
+.hero .content h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 72px;
-  padding: 8rem 0;
-  color: #fff;
+  color: #ffffff;
 }
 /* bimbel section */
 .bimbel {
-  padding: 2rem 0;
+  padding: 2rem 0 0;
 }
 .bimbel .text-bimbel h2 {
   font-weight: 700;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 60px;
 }
 .bimbel .text-bimbel h2 span {
   color: #7fde34;
@@ -74,34 +80,174 @@ body {
   text-align: justify;
   font-weight: 400;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 35px;
 }
 
 /* visi -misi */
 .visi-misi {
   padding-top: 3rem;
+  background-color: #f6ffea;
 }
-.visi-misi .visi,
-.visi-misi .misi {
-  width: 550px;
-  height: 621px;
+.visi-misi .mission {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.visi-misi .mission .visi,
+.visi-misi .mission .misi {
+  width: 450px;
+  height: 550px;
   background: #f4fef5;
   box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  margin: 20px;
 }
-.visi-misi .visi h2,
-.visi-misi .misi h2 {
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 72px;
-  padding: 1.5rem;
-  height: 117px;
+.visi-misi .mission .visi h2,
+.visi-misi .mission .misi h2 {
+  text-align: center;
+  width: 450px;
   background: #93de34;
   border-radius: 20px 20px 0px 0px;
-  color: #ffff;
+  padding: 1.5rem 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+  color: #fff;
 }
-.visi-misi .visi p {
-  padding: 0 4%;
+.visi-misi .mission .visi p {
+  padding: 6rem 4%;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  text-align: center;
+}
+.visi-misi .mission .misi .misi-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 34px;
+  padding: 1rem 4%;
+  text-align: justify;
+}
+
+/* galeri */
+.gallery {
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  background-size: cover;
+}
+.gallery h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.gallery h2 span {
+  color: #7fde34;
+}
+
+img {
+  max-width: 100%;
+}
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+.gallery .vidio video {
+  width: 100%;
+  height: auto;
+  border: 15px solid #ffffff;
+  filter: drop-shadow(3px 4px 5px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+  overflow-x: hidden;
+}
+/* last section */
+.last {
+  background-color: #f6ffea;
+}
+.last .row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.last .menu {
+  width: 268px;
+  background: #ffffff;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px;
+}
+.last .menu img {
+  overflow-x: hidden;
+  border-radius: 10px 10px 0px 0px;
+  height: 230px;
+}
+.last .menu p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 1rem;
+}
+.last .menu p a {
+  text-decoration: none;
+  color: #000;
+}
+/* footer */
+footer h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+footer h4 span {
+  color: #7fde34;
+}
+
+footer .down a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .social-media {
+  padding: 2rem 0;
+}
+footer .social-media a {
+  font-size: 2.5rem;
+  color: #000;
+  margin-right: 20px;
+}
+
+footer .copyright {
+  padding-bottom: 2rem;
+}
+footer .copyright p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+footer .copyright a {
+  color: #7fde34;
+  font-size: 15px;
+  text-decoration: none;
 }
 
 /* Mendia Queries */
@@ -113,6 +259,9 @@ body {
   .navbar {
     font-size: 15px;
     font-weight: 500;
+  }
+  .hero .content {
+    padding-top: 11rem;
   }
 }
 
@@ -138,15 +287,15 @@ body {
     line-height: 24px;
   }
   .hero {
-    height: 200px;
-    background-image: url(../img/hero-tentang-kami2.jpg);
+    min-height: 250px;
   }
   .hero h1 {
     font-size: 40px;
     line-height: 72px;
-    padding: 10rem 0;
+    padding: 1rem 0;
   }
-  .bimbel .text-bimbel h2 {
+  .bimbel .text-bimbel h2,
+  .gallery h2 {
     font-size: 32px;
     line-height: 40px;
   }
@@ -155,6 +304,81 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+  }
+  /* visi -misi */
+  .visi-misi .mission .visi,
+  .visi-misi .mission .misi {
+    width: 370px;
+    height: 450px;
+    background: #f4fef5;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 20px;
+  }
+  .visi-misi .mission .visi h2,
+  .visi-misi .mission .misi h2 {
+    text-align: center;
+    width: 370px;
+    background: #93de34;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1.5rem 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 72px;
+    color: #fff;
+  }
+  .visi-misi .mission .visi p {
+    padding: 6rem 4%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+  }
+  .visi-misi .mission .misi .misi-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 2rem 4%;
+    text-align: justify;
+  }
+  /* last menu */
+  .last .menu {
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+  }
+  .last .menu img {
+    overflow-x: hidden;
+    border-radius: 10px 10px 0px 0px;
+    height: 170px;
+  }
+  .last .menu p {
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 1rem;
+  }
+  footer .last-section h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 8px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+  footer .last-section,
+  footer .social-media,
+  footer .copyright {
+    margin: 10px 0;
   }
 }
 
@@ -177,18 +401,18 @@ body {
     line-height: 24px;
   }
   .hero {
-    height: 180px;
+    min-height: 120px;
     background-image: url(../img/hero-tentang-kami2.jpg);
   }
-  .hero h1 {
-    font-size: 30px;
-    line-height: 72px;
-    padding: 10rem 0;
+  .hero .content {
+    padding-top: 9rem;
   }
-  .bimbel {
-    padding: 1rem 1rem;
+  .hero .content h1 {
+    font-size: 28px;
+    padding-bottom: 3rem;
   }
-  .bimbel .text-bimbel h2 {
+  .bimbel .text-bimbel h2,
+  .gallery h2 {
     font-size: 28px;
     line-height: 40px;
   }
@@ -198,61 +422,235 @@ body {
     font-size: 14px;
     line-height: 20px;
   }
-}
-
-@media (max-width: 420px) {
-  html {
-    font-size: 50%;
+  /* visi -misi */
+  .visi-misi .mission .visi,
+  .visi-misi .mission .misi {
+    width: 200px;
+    height: 300px;
+    background: #f4fef5;
+    box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin: 10px;
   }
-  .navbar {
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .navbar .btn-daftar button {
-    width: 75px;
-    height: 28px;
-    background: #7fde34;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 24px;
-  }
-  .bimbel .text-bimbel h2 {
+  .visi-misi .mission .visi h2,
+  .visi-misi .mission .misi h2 {
+    text-align: center;
+    width: 200px;
+    background: #93de34;
+    border-radius: 20px 20px 0px 0px;
+    padding: 1rem 0;
+    font-weight: 700;
     font-size: 25px;
-    line-height: 40px;
+    line-height: 50px;
+    color: #fff;
   }
-  .bimbel .text-bimbel p {
-    text-align: justify;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-  }
-}
-@media (max-width: 300px) {
-  html {
-    font-size: 50%;
-  }
-  .navbar {
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .navbar .btn-daftar button {
-    width: 75px;
-    height: 28px;
-    background: #7fde34;
-    border-radius: 10px;
+  .visi-misi .mission .visi p {
+    padding: 5rem 4%;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
   }
-  .bimbel .text-bimbel h2 {
-    font-size: 20px;
-    line-height: 30px;
-  }
-  .bimbel .text-bimbel p {
+  .visi-misi .mission .misi .misi-text {
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 18px;
+    padding: 0.6rem 5%;
     text-align: justify;
-    font-weight: 400;
+  }
+  /* last menu */
+  .last .menu {
+    width: 135px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+  }
+  .last .menu img {
+    overflow-x: hidden;
+    border-radius: 10px 10px 0px 0px;
+    height: 120px;
+  }
+  .last .menu p {
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 1rem;
+  }
+  /* footer */
+  footer {
+    padding: 0 5%;
+  }
+  footer .last-section h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
     font-size: 12px;
-    line-height: 20px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+
+  @media (max-width: 420px) {
+    html {
+      font-size: 50%;
+    }
+    .navbar {
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .navbar .btn-daftar button {
+      width: 75px;
+      height: 28px;
+      background: #7fde34;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .bimbel .text-bimbel h2,
+    .gallery h2 {
+      font-size: 25px;
+      line-height: 40px;
+    }
+    .bimbel .text-bimbel p {
+      text-align: justify;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+    }
+    /* visi -misi */
+    .visi-misi .mission .visi,
+    .visi-misi .mission .misi {
+      width: 150px;
+      height: 250px;
+      background: #f4fef5;
+      box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
+      margin: 10px;
+    }
+    .visi-misi .mission .visi h2,
+    .visi-misi .mission .misi h2 {
+      text-align: center;
+      width: 150px;
+      background: #93de34;
+      border-radius: 20px 20px 0px 0px;
+      padding: 1rem 0;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 50px;
+      color: #fff;
+    }
+    .visi-misi .mission .visi p {
+      padding: 4rem 4%;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 25px;
+      text-align: center;
+    }
+    .visi-misi .mission .misi .misi-text {
+      font-weight: 500;
+      font-size: 7px;
+      line-height: 15px;
+      padding: 0.6rem 5%;
+      text-align: justify;
+    }
+    footer .last-section h4 {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    footer .last-section a {
+      font-size: 10px;
+      line-height: 18px;
+      margin-right: 5px;
+    }
+    footer .copyright p {
+      font-size: 8px;
+    }
+    footer .copyright p a {
+      font-size: 8px;
+    }
+  }
+  @media (max-width: 300px) {
+    html {
+      font-size: 50%;
+    }
+    .navbar {
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .navbar .btn-daftar button {
+      width: 75px;
+      height: 28px;
+      background: #7fde34;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 24px;
+    }
+    .bimbel .text-bimbel h2,
+    .gallery h2 {
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .bimbel .text-bimbel p {
+      text-align: justify;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .visi-misi .mission .visi h2,
+    .visi-misi .mission .misi h2 {
+      text-align: center;
+      width: 150px;
+      background: #93de34;
+      border-radius: 20px 20px 0px 0px;
+      padding: 1rem 0;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 30px;
+      color: #fff;
+    }
+    /* last menu */
+    .last .menu {
+      width: 120px;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+      padding: 5px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .last .menu img {
+      overflow-x: hidden;
+      border-radius: 5px 5px 0px 0px;
+      height: 100px;
+    }
+    .last .menu p {
+      font-weight: 600;
+      font-size: 10px;
+      padding-top: 1rem;
+    }
+    footer .last-section h4 {
+      font-size: 10px;
+      line-height: 18px;
+    }
+    footer .last-section a {
+      font-size: 8px;
+      line-height: 18px;
+      margin-right: 5px;
+    }
+    footer .copyright p {
+      font-size: 6px;
+    }
+    footer .copyright p a {
+      font-size: 6px;
+    }
   }
 }
