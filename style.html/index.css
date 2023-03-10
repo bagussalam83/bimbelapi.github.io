@@ -448,7 +448,7 @@ footer .copyright a {
     font-size: 12px;
     line-height: 24px;
   }
-  .hero .jumbotron {
+  .hero {
     display: flex;
     align-items: center;
     background-image: url("../img/hero-second.png");
@@ -457,7 +457,7 @@ footer .copyright a {
     background-position: center;
     position: relative;
   }
-  .hero .jumbotron::after {
+  .hero::after {
     content: "";
     display: block;
     position: absolute;
@@ -877,6 +877,10 @@ footer .copyright a {
     line-height: 13px;
     text-align: center;
   }
+  .bayar .card-bayaran h3 {
+    font-size: 20px;
+    padding: 2.7rem 0;
+  }
   .bayar .card-bayaran .table-bayar {
     padding: 20px 20px;
   }
@@ -1002,5 +1006,33 @@ footer .copyright a {
   }
   footer .copyright p a {
     font-size: 6px;
+  }
+}
+
+@media (max-width: 276px) {
+  html {
+    font-size: 45%;
+  }
+  .hero .jumbotron .text-hero h1 {
+    font-size: 20px;
+    line-height: 24px;
+    width: 250px;
+  }
+  .hero .jumbotron .text-hero p {
+    font-weight: 500;
+    font-size: 12px;
+    width: 250px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.79);
+  }
+  .kontak .maps .map {
+    width: 220px;
+  }
+  .hero .jumbotron .text-hero .btn-join button {
+    width: 70px;
+    height: 30px;
+  }
+  .hero .jumbotron .text-hero .btn-join button a {
+    font-size: 10px;
   }
 }
