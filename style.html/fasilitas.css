@@ -1,0 +1,406 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.about,
+.bayar,
+.program,
+.kontak {
+  padding-top: 5rem;
+}
+/* navbar */
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+}
+.navbar .navbar-brand span {
+  color: #7fde34;
+}
+.navbar {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-daftar button {
+  width: 110px;
+  height: 38px;
+  background: #7fde34;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+}
+
+.btn-daftar button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  min-height: 300px;
+  overflow-x: hidden;
+  background: url(/img/fasilitras-kami/hero.png);
+  background-size: cover;
+  justify-content: center;
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+}
+.hero .content {
+  padding-top: 9rem;
+}
+.hero .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* fasilitas */
+.fasilitas {
+  padding-top: 2rem;
+}
+
+.fasilitas h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.fasilitas span {
+  color: #7fde34;
+}
+.fasilitas .row2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.fasilitas .row2 .card-fasilitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fasilitas .row2 .card-fasilitas .card {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  margin: 10px;
+}
+
+.fasilitas .row2 .card-body h5 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+.fasilitas .row2 .card-body p {
+  font-size: 1rem;
+  line-height: 30px;
+  color: #000000;
+}
+
+.fasilitas .row2 .card img {
+  cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
+/* fasilitas Section end */
+
+/* footer */
+footer {
+  background-color: #f6ffea;
+}
+footer h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+footer h4 span {
+  color: #7fde34;
+}
+
+footer .down a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .social-media {
+  padding: 2rem 0;
+}
+footer .social-media a {
+  font-size: 2.5rem;
+  color: #000;
+  margin-right: 20px;
+}
+
+footer .copyright {
+  padding-bottom: 2rem;
+}
+footer .copyright p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+footer .copyright a {
+  color: #7fde34;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Mendia Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 80%;
+  }
+  .navbar {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .hero .content {
+    padding-top: 11rem;
+  }
+}
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar {
+    padding: 10px 0;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    min-height: 250px;
+    background-image: url(../img/fasilitras-kami/hero.png);
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 72px;
+    padding: 1rem 0;
+  }
+
+  /* fasilitas Section start */
+  .fasilitas h2 {
+    font-size: 3rem;
+    line-height: 40px;
+  }
+  .fasilitas .row2 .card-fasilitas .card {
+    max-width: 300px;
+  }
+  .fasilitas .row2 .card-body h5 {
+    font-size: 2.5rem;
+  }
+
+  .fasilitas .row2 .card-body p {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  /* fasilitas Section end */
+
+  footer .last-section h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 8px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+  footer .last-section,
+  footer .social-media,
+  footer .copyright {
+    margin: 10px 0;
+  }
+}
+/* handphone */
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    min-height: 120px;
+  }
+  .hero .content {
+    padding-top: 9rem;
+  }
+  .hero .content h1 {
+    font-size: 28px;
+    padding-bottom: 3rem;
+  }
+  /* fasilitas Section start */
+  .fasilitas h2 {
+    font-size: 3rem;
+  }
+  .fasilitas .row2 .card-fasilitas .card {
+    max-width: 175px;
+    text-align: center;
+    margin: 8px;
+  }
+  .fasilitas .row2 .card-body h5 {
+    font-size: 2.2rem;
+  }
+
+  .fasilitas .row2 .card-body p {
+    font-size: 1.2rem;
+    line-height: 20px;
+  }
+  /* fasilitas Section end */
+
+  /* footer */
+  footer {
+    padding: 0 5%;
+  }
+  footer .last-section h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+}
+/* phonee */
+@media (max-width: 420px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  /* fasilitas Section start */
+  .fasilitas h2 {
+    font-size: 3rem;
+    line-height: 40px;
+  }
+  .fasilitas .row2 .card-fasilitas .card {
+    max-width: 130px;
+    text-align: center;
+    margin: 8px;
+  }
+  .fasilitas .row2 .card-body h5 {
+    font-size: 2rem;
+  }
+
+  .fasilitas .row2 .card-body p {
+    font-size: 1rem;
+    line-height: 15px;
+  }
+  /* fasilitas Section end */
+}
+/* vivo */
+@media (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  /* fasilitas Section start */
+  .fasilitas h2 {
+    font-size: 2.5rem;
+  }
+  .fasilitas .row2 .card-fasilitas .card {
+    max-width: 100px;
+    text-align: center;
+    margin: 8px;
+  }
+  .fasilitas .row2 .card-body h5 {
+    font-size: 1.5rem;
+  }
+
+  .fasilitas .row2 .card-body p {
+    font-size: 1rem;
+    line-height: 13px;
+  }
+  /* fasilitas Section end */
+  footer .last-section h4 {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 8px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 6px;
+  }
+  footer .copyright p a {
+    font-size: 6px;
+  }
+}
