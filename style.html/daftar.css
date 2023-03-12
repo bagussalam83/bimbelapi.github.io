@@ -1,0 +1,955 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* navbar */
+.navbar .navbar-brand {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+}
+.navbar .navbar-brand span {
+  color: #7fde34;
+}
+.navbar {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn-daftar button {
+  width: 110px;
+  height: 38px;
+  background: #7fde34;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border-style: none;
+}
+
+.btn-daftar button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* hero */
+.hero {
+  display: flex;
+  min-height: 300px;
+  overflow-x: hidden;
+  background: url(/img/testimoni/hero.png);
+  background-size: cover;
+  justify-content: center;
+  filter: drop-shadow(0px 7px 4px rgba(0, 0, 0, 0.25));
+}
+.hero .content {
+  padding-top: 9rem;
+}
+.hero .content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* section pendaftaran */
+.pendaftaran {
+  background-color: #f6ffea;
+}
+
+.pendaftaran h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 72px;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.pendaftaran h2 span {
+  color: #7fde34;
+}
+
+.pendaftaran .row .card-pendaftaran {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.pendaftaran .row .card-pendaftaran .program-belajar {
+  width: 420px;
+  height: 619px;
+  background: #ffffff;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 6px 4px #429600;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.pendaftaran .row .card-pendaftaran .program-belajar h3 {
+  width: 300px;
+  background: #7fde34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.pendaftaran .row .card-pendaftaran .daftar-pelajaran {
+  padding: 5rem 0;
+}
+.pendaftaran .row .card-pendaftaran .program-belajar p {
+  padding: 0 4rem;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+/* biaya les */
+
+.pendaftaran .row .card-pendaftaran .biaya-les {
+  width: 500px;
+  height: 450px;
+  background: #ffffff;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 6px 4px #429600;
+  border-radius: 10px;
+}
+
+.pendaftaran .row .card-pendaftaran .biaya-les h3 {
+  width: 300px;
+  background: #7fde34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.pendaftaran .row .card-pendaftaran .biaya-les .table-pembayaran {
+  padding: 4rem 2rem;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 33px;
+}
+
+/* jadwal-les */
+
+.pendaftaran .row .card-pendaftaran-center,
+.card-pendaftaran-down {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran {
+  width: 420px;
+  height: 279px;
+  background: #ffffff;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 6px 4px #429600;
+  border-radius: 10px;
+}
+
+.pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran h3 {
+  width: 300px;
+  background: #7fde34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal {
+  padding: 3.4rem 2rem;
+}
+
+.pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 40px;
+}
+
+/* Catatan */
+.pendaftaran .row .card-pendaftaran-down .catatan-daftar {
+  width: 680px;
+  height: 330px;
+  background: #ffffff;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 8px 6px 4px #429600;
+  border-radius: 10px;
+}
+
+.pendaftaran .row .card-pendaftaran-down .catatan-daftar h3 {
+  width: 300px;
+  background: #7fde34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan {
+  padding: 3.4rem 2rem;
+}
+
+.pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 34px;
+  text-align: center;
+}
+
+.daftar-last {
+  padding-top: 5rem;
+  background-color: #f6ffea;
+}
+
+.daftar-last .last-section {
+  display: flex;
+  justify-content: center;
+}
+.daftar-last .last-section h4 {
+  width: 839px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.daftar-last .btn-last {
+  text-align: center;
+  padding: 3rem 0;
+}
+.daftar-last .btn-last button {
+  width: 370px;
+  height: 80px;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 39px;
+  background: #7fde34;
+  border-radius: 10px;
+  border-style: none;
+}
+
+.daftar-last .btn-last button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* footer */
+footer {
+  background-color: #ffffff;
+}
+footer h4 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 54px;
+}
+
+footer h4 span {
+  color: #7fde34;
+}
+
+footer .down a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+footer .social-media {
+  padding: 2rem 0;
+}
+footer .social-media a {
+  font-size: 2.5rem;
+  color: #000;
+  margin-right: 20px;
+}
+
+footer .copyright {
+  padding-bottom: 2rem;
+}
+footer .copyright p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+footer .copyright a {
+  color: #7fde34;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/* Mendia Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 80%;
+  }
+  .navbar {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .hero .content {
+    padding-top: 11rem;
+  }
+}
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .navbar {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar {
+    padding: 10px 0;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    min-height: 250px;
+  }
+  .hero h1 {
+    font-size: 40px;
+    line-height: 72px;
+    padding: 1rem 0;
+  }
+  /* section pendaftaran */
+  .pendaftaran {
+    background-color: #f6ffea;
+  }
+
+  .pendaftaran h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 40px;
+  }
+
+  .pendaftaran h2 span {
+    color: #7fde34;
+  }
+
+  .pendaftaran .row .card-pendaftaran {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar {
+    width: 420px;
+    height: 380px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar h3 {
+    width: 200px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 25px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .daftar-pelajaran {
+    padding: 5rem 0;
+  }
+  .pendaftaran .row .card-pendaftaran .program-belajar p {
+    padding: 0 4rem;
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
+  /* biaya les */
+  .pendaftaran .row .card-pendaftaran .biaya-les {
+    width: 400px;
+    height: 300px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les h3 {
+    width: 200px;
+    line-height: 25px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les .table-pembayaran {
+    padding: 3rem 4%;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  /* jadwal-les */
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran {
+    width: 250px;
+    height: 175px;
+  }
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran h3 {
+    width: 200px;
+    line-height: 25px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 25px;
+  }
+
+  /* Catatan */
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar {
+    width: 500px;
+    height: 170px;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar h3 {
+    width: 200px;
+    line-height: 25px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  /* last section */
+  .daftar-last {
+    padding-top: 5rem;
+    background-color: #f6ffea;
+  }
+
+  .daftar-last .last-section {
+    display: flex;
+    justify-content: center;
+  }
+  .daftar-last .last-section h4 {
+    width: 500px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .daftar-last .btn-last {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .daftar-last .btn-last button {
+    width: 300px;
+    height: 60px;
+    font-size: 2rem;
+  }
+
+  .daftar-last .btn-last button a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  footer .last-section h4 {
+    font-size: 20px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 8px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+  footer .last-section,
+  footer .social-media,
+  footer .copyright {
+    margin: 10px 0;
+  }
+}
+/* handphone */
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .hero {
+    min-height: 120px;
+  }
+  .hero .content {
+    padding-top: 9rem;
+  }
+  .hero .content h1 {
+    font-size: 28px;
+    padding-bottom: 3rem;
+  }
+  /* section pendaftaran */
+  .pendaftaran .row .card-pendaftaran .program-belajar {
+    width: 400px;
+    height: 360px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar h3 {
+    width: 150px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar p {
+    padding: 0 4rem;
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+  /* biaya les */
+  .pendaftaran .row .card-pendaftaran .biaya-les {
+    width: 400px;
+    height: 250px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les .table-pembayaran {
+    padding: 3rem 4%;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 25px;
+    text-align: justify;
+  }
+
+  /* jadwal-les */
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran {
+    width: 250px;
+    height: 175px;
+  }
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 25px;
+  }
+
+  /* Catatan */
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar {
+    width: 500px;
+    height: 170px;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  /* last section */
+  .daftar-last {
+    padding-top: 5rem;
+    background-color: #f6ffea;
+  }
+
+  .daftar-last .last-section {
+    display: flex;
+    justify-content: center;
+  }
+  .daftar-last .last-section h4 {
+    width: 500px;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .daftar-last .btn-last {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .daftar-last .btn-last button {
+    width: 300px;
+    height: 60px;
+    font-size: 2rem;
+  }
+  /* footer */
+  footer {
+    padding: 0 5%;
+  }
+  footer .last-section h4 {
+    font-size: 15px;
+    line-height: 18px;
+  }
+  footer .last-section a {
+    font-size: 10px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  footer .copyright p a {
+    font-size: 12px;
+  }
+}
+/* phonee */
+@media (max-width: 420px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  /* section pendaftaran */
+  .pendaftaran .row .card-pendaftaran .program-belajar {
+    width: 400px;
+    height: 360px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar h3 {
+    width: 150px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 20px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar p {
+    padding: 0 4rem;
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+
+  /* biaya les */
+  .pendaftaran .row .card-pendaftaran .biaya-les {
+    width: 400px;
+    height: 250px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les .table-pembayaran {
+    padding: 3rem 4%;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 20px;
+    text-align: justify;
+  }
+
+  /* jadwal-les */
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran {
+    width: 250px;
+    height: 175px;
+  }
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 25px;
+  }
+
+  /* Catatan */
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar {
+    width: 500px;
+    height: 170px;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan p {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 20px;
+    text-align: center;
+  }
+  /* last section */
+  .daftar-last {
+    padding-top: 5rem;
+    background-color: #f6ffea;
+  }
+  .daftar-last .last-section h4 {
+    width: 500px;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .daftar-last .btn-last {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .daftar-last .btn-last button {
+    width: 300px;
+    height: 60px;
+    font-size: 2rem;
+  }
+}
+/* vivo */
+@media (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+  .navbar {
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .navbar .btn-daftar button {
+    width: 75px;
+    height: 28px;
+    background: #7fde34;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+  }
+  /* section pendaftaran */
+  .pendaftaran h2 {
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+  .pendaftaran .row .card-pendaftaran .program-belajar {
+    width: 400px;
+    height: 360px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar h3 {
+    width: 100px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 10px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .program-belajar p {
+    padding: 0 4rem;
+    font-size: 1.2rem;
+    line-height: 14px;
+  }
+
+  /* biaya les */
+  .pendaftaran .row .card-pendaftaran .biaya-les {
+    width: 400px;
+    height: 250px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les h3 {
+    width: 100px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 10px;
+  }
+
+  .pendaftaran .row .card-pendaftaran .biaya-les .table-pembayaran {
+    padding: 3rem 4%;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    text-align: justify;
+  }
+
+  /* jadwal-les */
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran {
+    width: 175px;
+    height: 100px;
+  }
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran h3 {
+    width: 100px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1rem;
+    line-height: 10px;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-center .jadwal-pelajaran .jadwal p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 11px;
+  }
+
+  /* Catatan */
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar {
+    width: 500px;
+    height: 170px;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar h3 {
+    width: 150px;
+    line-height: 20px;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan {
+    padding: 3.4rem 2rem;
+  }
+
+  .pendaftaran .row .card-pendaftaran-down .catatan-daftar .catatan p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 15px;
+    text-align: center;
+  }
+  /* last section */
+  .daftar-last {
+    padding-top: 5rem;
+    background-color: #f6ffea;
+  }
+  .daftar-last .last-section h4 {
+    width: 500px;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .daftar-last .btn-last {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .daftar-last .btn-last button {
+    width: 250px;
+    height: 60px;
+    font-size: 2rem;
+  }
+  footer .last-section a {
+    font-size: 8px;
+    line-height: 18px;
+    margin-right: 5px;
+  }
+  footer .copyright p {
+    font-size: 6px;
+  }
+  footer .copyright p a {
+    font-size: 6px;
+  }
+}

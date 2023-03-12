@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="style.html/daftar.css" />
+
+    <!-- logo title -->
+    <link rel="icon" href="img/tittle.png" type="img/x-icon" />
+
+    <title>Pendaftaran</title>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo.png"
+            alt="logo"
+            width="30"
+            class="d-inline-block align-text-top me-1"
+          />
+          Bimbel <span>API</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-success fw-bold"
+                aria-current="page"
+                href="#"
+                >Beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pengajar.html">Pengajar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fasilitas.html">Fasilitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimoni.html">Testimoni</a>
+            </li>
+          </ul>
+          <div class="btn-daftar">
+            <button><a href="daftar.html">Daftar</a></button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section id="hero" class="hero">
+      <div class="content position-relative">
+        <h1>Pendaftaran</h1>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- section pendaftaran -->
+    <section class="pendaftaran" id="pendaftaran">
+      <div class="container">
+        <h2>
+          Pendaftaran <br />
+          <span>Bimbingan Belajar API</span>
+        </h2>
+        <div class="row">
+          <div class="card-pendaftaran">
+            <div class="program-belajar">
+              <div class="tittle-pendaftaran position-relative">
+                <h3 class="position-absolute top-0 start-50 translate-middle">
+                  PROGRAM BELAJAR
+                </h3>
+              </div>
+              <div class="daftar-pelajaran">
+                <p>Les belajar Aljabar</p>
+                <p>Les Baca-Tulis</p>
+                <p>Les Ngaji Al-Barqy</p>
+                <p>Les Matematika (SD & SMP)</p>
+                <p>Les Bahasa Inggris Dasar</p>
+                <p>Les Tematik</p>
+                <p>Les Menulis Indah (Tegak Bersambung)</p>
+                <p>Sanggar Lukis</p>
+              </div>
+            </div>
+            <div class="biaya-les">
+              <div class="harga-pelajaran position-relative">
+                <h3 class="position-absolute top-0 start-50 translate-middle">
+                  BIAYA LES
+                </h3>
+              </div>
+
+              <div class="table-pembayaran">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        Pendaftaran <br />
+                        (Permata Pelajaran)
+                      </td>
+                      <td>RP 100.000</td>
+                    </tr>
+                    <tr>
+                      <td>Naik Level</td>
+                      <td>RP 50.000</td>
+                    </tr>
+                    <tr>
+                      <td>Modul</td>
+                      <td>RP 35.000</td>
+                    </tr>
+                    <tr>
+                      <td>LKS Mata Pelajaran</td>
+                      <td>RP 15.000</td>
+                    </tr>
+                    <tr>
+                      <td>Biaya Les 1 Jam</td>
+                      <td>RP 12.500</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <!-- jadwal les -->
+          <div class="card-pendaftaran-center">
+            <div class="jadwal-pelajaran">
+              <div class="tittle-jadwal position-relative">
+                <h3 class="position-absolute top-0 start-50 translate-middle">
+                  JADWAL LES
+                </h3>
+              </div>
+              <div class="jadwal">
+                <p>
+                  Senin, Selasa, Rabu, Kamis <br />
+                  Pukul 09.00 s/d pukul 14.00
+                </p>
+                <hr class="dropdown-divider" />
+                <p>
+                  Jumat, Sabtu, Minggu <br />
+                  Pukul 09.00 s/d pukul 14.00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- catatan -->
+          <div class="card-pendaftaran-down">
+            <div class="catatan-daftar">
+              <div class="tittle-catatan position-relative">
+                <h3 class="position-absolute top-0 start-50 translate-middle">
+                  CATATAN
+                </h3>
+              </div>
+              <div class="catatan">
+                <p>
+                  Biaya Pendaftaran les hanya untuk 1 program belajar/mata
+                  pelajaran. jika mengambil 2 program belajar, maka harus daftar
+                  lagi
+                </p>
+                <hr class="dropdown-divider" />
+                <p>
+                  Bagi yang anaknya 3 bulan tidak les tanpa ijin, maka otomatis
+                  akan di keluarkan dari Bimbel API. jika mau masuk lagi, harus
+                  membayar biaya pendaftaran lagi
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- last section -->
+    <section class="daftar-last" id="daftar-last">
+      <div class="last-section">
+        <h4>
+          sudah di baca semuanya?, kalau sudah langsung daftar aja di tombol
+          yang ada di bawah
+        </h4>
+      </div>
+      <div class="btn-last">
+        <button><a href="#">Daftar Sekarang</a></button>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,0L34.3,32C68.6,64,137,128,206,149.3C274.3,171,343,149,411,117.3C480,85,549,43,617,26.7C685.7,11,754,21,823,48C891.4,75,960,117,1029,154.7C1097.1,192,1166,224,1234,213.3C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- footer start -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="last-section d-flex justify-content-between">
+            <h4>Bimbel <span>API</span></h4>
+            <div class="down">
+              <a href="index.html">Beranda</a>
+              <a href="#hero"><i class="bi bi-arrow-up-circle-fill"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <div class="social-media">
+            <a href="#"><i class="bi bi-whatsapp"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          <p>
+            Copyright © 2023
+            <a href="#"
+              >bimbingan-belajar-API <i class="bi bi-heart-fill"></i>
+            </a>
+            All Rights Reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
