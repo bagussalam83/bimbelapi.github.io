@@ -297,10 +297,11 @@ body {
   background-color: #ffffff;
   border: 10px solid #ecffee;
   filter: drop-shadow(3px 4px 5px rgba(0, 0, 0, 0.25));
+  overflow: hidden;
 }
 .kontak .maps .map {
-  width: 820px;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
@@ -420,9 +421,7 @@ footer .copyright a {
   .bayar .card-bayaran {
     height: 420px;
   }
-  .kontak .maps .map {
-    width: 700px;
-  }
+
   .kontak .maps input {
     font-size: 15px;
   }
@@ -565,10 +564,7 @@ footer .copyright a {
   .bayar .card-bayaran .table-bayar {
     padding: 20px 20px;
   }
-  .kontak .maps .map {
-    width: 430px;
-    position: relative;
-  }
+
   .kontak .maps h3 {
     padding-top: 1rem;
     font-size: 20px;
@@ -652,10 +648,7 @@ footer .copyright a {
     font-size: 15px;
     line-height: 30px;
   }
-  .kontak .maps .map {
-    width: 420px;
-    position: relative;
-  }
+
   .kontak .btn-kontak {
     padding: 10px 0;
   }
@@ -785,9 +778,7 @@ footer .copyright a {
   .program .card-pro .card-program img {
     width: 180px;
   }
-  .kontak .maps .map {
-    width: 350px;
-  }
+
   .kontak .maps h3 {
     padding-top: 1rem;
     font-size: 18px;
@@ -964,9 +955,6 @@ footer .copyright a {
     color: #ffff;
     text-decoration: none;
   }
-  .kontak .maps .map {
-    width: 250px;
-  }
   .kontak .maps h3 {
     padding-top: 1rem;
     font-size: 18px;
@@ -1024,9 +1012,6 @@ footer .copyright a {
     width: 250px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.79);
-  }
-  .kontak .maps .map {
-    width: 220px;
   }
   .hero .jumbotron .text-hero .btn-join button {
     width: 70px;
